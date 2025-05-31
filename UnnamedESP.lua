@@ -750,20 +750,20 @@ end
 
 Options('Enabled', 'ESP Enabled', true);
 Options('ShowTeam', 'Show Team', true);
-Options('ShowTeamColor', 'Show Team Color', false);
+Options('ShowTeamColor', 'Show Team Color', true);
 Options('ShowName', 'Show Names', true);
-Options('ShowDistance', 'Show Distance', true);
-Options('ShowHealth', 'Show Health', true);
-Options('ShowBoxes', 'Show Boxes', true);
-Options('ShowTracers', 'Show Tracers', true);
+Options('ShowDistance', 'Show Distance', false);
+Options('ShowHealth', 'Show Health', false);
+Options('ShowBoxes', 'Show Boxes', false);
+Options('ShowTracers', 'Show Tracers', false);
 Options('ShowDot', 'Show Head Dot', false);
 Options('VisCheck', 'Visibility Check', false);
 Options('Crosshair', 'Crosshair', false);
 Options('TextOutline', 'Text Outline', true);
 -- Options('Rainbow', 'Rainbow Mode', false);
-Options('TextSize', 'Text Size', syn and 18 or 14, 10, 24); -- cuz synapse fonts look weird???
-Options('MaxDistance', 'Max Distance', 2500, 100, 25000);
-Options('RefreshRate', 'Refresh Rate (ms)', 5, 1, 200);
+Options('TextSize', 'Text Size', syn and 18 or 22, 10, 24); -- cuz synapse fonts look weird???
+Options('MaxDistance', 'Max Distance', 25000, 100, 2500);
+Options('RefreshRate', 'Refresh Rate (ms)', 1, 5, 200);
 Options('YOffset', 'Y Offset', 0, -200, 200);
 Options('MenuKey', 'Menu Key', Enum.KeyCode.F4, 1);
 Options('ToggleKey', 'Toggle Key', Enum.KeyCode.F3, 1);
